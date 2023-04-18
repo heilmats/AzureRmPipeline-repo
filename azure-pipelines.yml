@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'East US 2'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/heilmats/AzureRmPipeline-repo/main/CreateWebApp/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/heilmats/AzureRmPipeline-repo/main/CreateWebApp/azuredeploy.json?token=GHSAT0AAAAAACBPIBXUZMD3BT7GWLINIJBCZB54MMQ'
     overrideParameters: '-projectName AzureRmPipeline-repo'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
