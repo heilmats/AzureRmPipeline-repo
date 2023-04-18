@@ -20,6 +20,7 @@ steps:
     location: 'East US 2'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/heilmats/AzureRmPipeline-repo/main/CreateWebApp/azuredeploy.json'
+    csmFile: 'https://raw.githubusercontent.com/heilmats/AzureRmPipeline-repo/main/CreateWebApp/linkedStorageAccount.json'
     overrideParameters: '-projectName AzureRmPipeline-repo'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
