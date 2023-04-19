@@ -4,6 +4,7 @@
   "parameters": {
     "storageAccountName": {
       "type": "string",
+      "defaultValue": "SACC01",
       "metadata": {
         "description": "AZStore01"
       }
